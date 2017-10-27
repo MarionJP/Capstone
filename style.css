@@ -1,0 +1,75 @@
+body {
+  font-family: Helvetica;
+  font-size: 18px;
+}
+
+.top {
+  display: flex;
+  margin-top: 0;
+  align-items: center;
+  height: 64px;
+  justify-content: space-between;
+}
+
+.top b {
+  color: #424143;
+  font-weight: bold;
+}
+
+.logotext {
+  display: inline-flex;
+}
+
+.colmar {
+  display: flex;
+  height: 32px;
+  align-items: center;
+}
+
+.colmar h1 {
+color: gray;
+}
+
+.logo img {
+  display: flex;
+  padding-left: 24px;
+}
+
+.list a {
+  color: gray;
+  text-decoration: none;
+}
+
+.list li {
+  display: inline-flex;
+  margin-right: 16px;
+}
+
+.list ul {
+  margin-right: 8px;
+}
+
+.gray {
+  display: flex;
+  background-color: lightgray;
+  color: #424143;
+  align-items: center;
+  border: 1px solid pink;
+}
+
+.gray img {
+  width: 60%;
+  height: 30%;
+  margin: 32px 24px;
+}
+
+.gray h1 {
+  font-weight: bold;
+  font-size: 3rem;
+}
+
+.learn {
+  margin-left: 24px;
+  border: 1px solid orange;
+  font-weight: bold;
+}
