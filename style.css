@@ -54,7 +54,6 @@ color: gray;
   background-color: lightgray;
   color: #424143;
   align-items: center;
-  border: 1px solid pink;
 }
 
 .gray img {
@@ -69,7 +68,89 @@ color: gray;
 }
 
 .learn {
+  display: flex;
   margin-left: 24px;
   border: 1px solid orange;
   font-weight: bold;
+  flex-direction: column;
+  width: 400px;
+  height: 250px;
+  justify-content: space-between;
+}
+
+/* Button */
+.button {
+  display: flex;
+  padding-top: 8px;
+  padding-bottom: 8px;
+  background-color: #424143;
+  justify-content: center;
+  color: white;
+  text-decoration: none;
+  font-weight: normal;
+  font-size: 1.5rem;
+}
+
+/* Main Section part two */
+
+.white {
+display: flex;
+color: #424143;
+}
+
+.col1 {
+  display: inline;
+  border: 1px solid green;
+  padding: 32px 24px;
+  border-right: 4px solid gray;
+}
+
+.col1 img {
+  width: 60%;
+  padding-bottom: 32px;
+}
+
+.col1 h1 {
+font-weight: bold;
+padding-bottom: 24px;
+font-size: 1.75rem;
+}
+
+.col1 p {
+  padding-bottom: 32px;
+}
+
+.col2 {
+display: inline;
+border: 1px solid blue;
+width: 40%;
+height: 520px;
+}
+
+.box {
+display: flex;
+height: 174px;
+}
+
+.box h2 {
+  font-weight: bold;
+}
+
+.boximg {
+  display: inline;
+  border: 1px dotted
+}
+
+.boximg img {
+  width: 35%;
+}
+
+.boxtext {
+  width: 65%;
+  display: inline;
+  border: 2px dotted pink;
+}
+
+.special {
+background-color: lightgray;
 }
