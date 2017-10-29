@@ -1,6 +1,7 @@
 body {
   font-family: Helvetica;
   font-size: 18px;
+  color: gray;
 }
 
 .top {
@@ -26,18 +27,14 @@ body {
   align-items: center;
 }
 
-.colmar h1 {
-color: gray;
-}
-
 .logo img {
   display: flex;
   padding-left: 24px;
 }
 
 .list a {
-  color: gray;
   text-decoration: none;
+  color: gray;
 }
 
 .list li {
@@ -106,7 +103,7 @@ color: #424143;
 }
 
 .col1 img {
-  width: 60%;
+  max-width: 60%;
   padding-bottom: 32px;
 }
 
@@ -139,10 +136,14 @@ height: 174px;
 .boximg {
   display: inline;
   border: 1px dotted
+  width: 35%;
+  overflow: hidden;
 }
 
 .boximg img {
-  width: 35%;
+  max-width: 100%
+  height: auto;
+
 }
 
 .boxtext {
@@ -197,10 +198,98 @@ background-color: lightgray;
 }
 
 .thesis h1 {
-  border: 1px solid red;
   font-size: 1.75rem;
   font-weight: bold;
   color: #424143;
   Padding-top: 32px;
   padding-bottom: 32px;
+}
+
+.exhibit {
+  display: flex;
+  flex-direction: row;
+  border-bottom: 1px solid lightgray;
+}
+
+.sec1 {
+  margin-left: 24px;
+  margin-right: 24px;
+  margin-bottom: 32px;
+  width: 60%;
+  overflow: hidden;
+}
+
+.sec1 video {
+  max-width: 100%;
+  height: auto;
+  display: block;
+}
+
+.sec1 h2 {
+  padding-top: 24px;
+  padding-bottom: 8px;
+}
+
+.sec2 {
+  width: 40%;
+}
+
+.fisma {
+  background-color: lightgray;
+}
+
+.fisma,
+.now {
+  display: flex;
+}
+
+.fisma img,
+.now img {
+  max-width: 35%;
+  height: 175px;
+  overflow: hidden;
+  padding: 16px;
+}
+
+
+.fismatext,
+.nowtext {
+  display: flex;
+  flex-direction: column;
+  width: 65%;
+  justify-content: center;
+
+}
+
+.fismatext h2,
+.nowtext h2 {
+  font-weight: bold;
+}
+
+/* Footer Section */
+
+.footer {
+  font-size: 0.75rem;
+  display: flex;
+  border: 1px solid red;
+  justify-content: space-between;
+}
+
+.footer a {
+  text-decoration: none;
+  color: gray;
+}
+
+.footer li {
+    display: inline;
+}
+
+.rights {
+  display: flex;
+  border: 1px solid green;
+}
+
+.nav {
+  border: 1px solid blue;
+  display: flex;
 }
