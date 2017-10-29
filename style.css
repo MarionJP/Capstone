@@ -4,6 +4,7 @@ body {
   color: gray;
 }
 
+/* Heading Banner */
 .top {
   display: flex;
   margin-top: 0;
@@ -46,16 +47,19 @@ body {
   margin-right: 8px;
 }
 
+/* Start of first section "Learn Something" */
 .gray {
   display: flex;
   background-color: lightgray;
   color: #424143;
   align-items: center;
+  line-height: 1.2;
+  width: 1349px;
 }
 
 .gray img {
   width: 60%;
-  height: 30%;
+  height: auto;
   margin: 32px 24px;
 }
 
@@ -67,12 +71,15 @@ body {
 .learn {
   display: flex;
   margin-left: 24px;
-  border: 1px solid orange;
   font-weight: bold;
   flex-direction: column;
   width: 400px;
   height: 250px;
   justify-content: space-between;
+}
+
+.p p {
+  line-height: 1.5;
 }
 
 /* Button */
@@ -88,38 +95,40 @@ body {
   font-size: 1.5rem;
 }
 
-/* Main Section part two */
+/* Start of Second Section "Keep practicing" */
 
 .white {
 display: flex;
 color: #424143;
+width: 1349px;
 }
 
 .col1 {
   display: inline;
-  border: 1px solid green;
   padding: 32px 24px;
-  border-right: 4px solid gray;
+  border-right: 1px solid lightgray;
+  width: 857px;
 }
 
 .col1 img {
-  max-width: 60%;
+  max-width: 80%;
+  height: auto;
   padding-bottom: 32px;
 }
 
 .col1 h1 {
-font-weight: bold;
+font-weight: bolder;
 padding-bottom: 24px;
 font-size: 1.75rem;
 }
 
 .col1 p {
   padding-bottom: 32px;
+  line-height: 1.5;
 }
 
 .col2 {
 display: inline;
-border: 1px solid blue;
 width: 40%;
 height: 520px;
 }
@@ -135,7 +144,6 @@ height: 174px;
 
 .boximg {
   display: inline;
-  border: 1px dotted
   width: 35%;
   overflow: hidden;
 }
@@ -149,7 +157,6 @@ height: 174px;
 .boxtext {
   width: 65%;
   display: inline;
-  border: 2px dotted pink;
 }
 
 .special {
@@ -172,7 +179,6 @@ background-color: lightgray;
 }
 
 .learning {
-  border: 1px solid green;
   display: flex;
   flex-wrap: wrap;
   background-color: lightgray;
@@ -180,7 +186,6 @@ background-color: lightgray;
 }
 
 .course {
-  border: 1px solid red;
   background-color: white;
   width: 330px;
   margin: 16px;
@@ -271,8 +276,10 @@ background-color: lightgray;
 .footer {
   font-size: 0.75rem;
   display: flex;
-  border: 1px solid red;
   justify-content: space-between;
+  padding: 16px 24px 64px 24px;
+  padding-left: 24px;
+
 }
 
 .footer a {
@@ -282,14 +289,13 @@ background-color: lightgray;
 
 .footer li {
     display: inline;
+    padding-left: 16px;
 }
 
 .rights {
   display: flex;
-  border: 1px solid green;
 }
 
 .nav {
-  border: 1px solid blue;
   display: flex;
 }
