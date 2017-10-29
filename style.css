@@ -154,3 +154,53 @@ height: 174px;
 .special {
 background-color: lightgray;
 }
+
+/* Start Learning Section */
+
+.start {
+  background-color: lightgray;
+  text-align: center;
+}
+
+.start h1 {
+  font-size: 1.75rem;
+  font-weight: bold;
+  color: #424143;
+  Padding-top: 32px;
+  padding-bottom: 32px;
+}
+
+.learning {
+  border: 1px solid green;
+  display: flex;
+  flex-wrap: wrap;
+  background-color: lightgray;
+  justify-content: center;
+}
+
+.course {
+  border: 1px solid red;
+  background-color: white;
+  width: 330px;
+  margin: 16px;
+}
+
+.course img {
+  height: auto;
+  width: 330px;
+}
+
+/* Thesis exhibit Section */
+
+.thesis {
+  text-align: center;
+}
+
+.thesis h1 {
+  border: 1px solid red;
+  font-size: 1.75rem;
+  font-weight: bold;
+  color: #424143;
+  Padding-top: 32px;
+  padding-bottom: 32px;
+}
